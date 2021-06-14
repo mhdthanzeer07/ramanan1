@@ -34,7 +34,7 @@ Join on our channel to get movies ✅
 
 ⬇️Channel link⬇️ </b>""",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="⚡ Join My Channel⚡️", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚡ Join My Channel⚡️", url=f"https://t.me/wolfpackmedia")]
               ])
             )
             return
@@ -65,7 +65,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 Developer 😃', url="https://t.me/Anandhukuttu"
+                                    '😃 Developer 😃', url="https://t.me/mhd_thanzeer"
                                 )
                         ]
                     ]
@@ -84,7 +84,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 Developer 😃', url="https://t.me/Anandhukuttu"
+                                    '😃 Developer 😃', url="https://t.me/mhd_thanzeer"
                                 )
                         ]
                     ]
@@ -103,7 +103,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 Developer 😃', url="https://t.me/Anandhukuttu"
+                                    '😃 Developer 😃', url="https://t.me/mhd_thanzeer"
                                 )
                         ]
                     ]
@@ -116,10 +116,10 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/Anandhukuttu'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Anandhu123555/Autofilter-look')
+        InlineKeyboardButton('Developers', url='https://t.me/mhd_thanzeer'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/mhdthanzeer07/Autofilter-look')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/Anandhukuttu')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/mhd_thanzeer')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
